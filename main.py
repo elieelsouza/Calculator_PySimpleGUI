@@ -82,7 +82,7 @@ class App:
                     self.window['visor'].update(value=self.values['visor'] + '1')
 
             if event in ('two'):
-                if self.valeus['visor'] == '0':
+                if self.values['visor'] == '0':
                     self.window['visor'].update(value='2')
                 else:
                     self.window['visor'].update(value=self.values['visor'] + '2')
@@ -91,7 +91,7 @@ class App:
                 if self.values['visor'] == '0':
                     self.window['visor'].update(value='3')
                 else:
-                    self.window['visor'].update(value=self.valeus['visor'] + '3')
+                    self.window['visor'].update(value=self.values['visor'] + '3')
 
             if event in ('four'):
                 if self.values['visor'] == '0':
